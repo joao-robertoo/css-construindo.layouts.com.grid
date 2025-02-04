@@ -4,13 +4,13 @@
     row-gap: 2rem;
 }
 
-.secao-horizontal, secao-vertical {
+.secao-horizontal, .secao-vertical {
     grid-template-rows: 70px auto;
 }
 
 .secao-horizontal .secao__cartoes {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(80%/2, max(350px, 80%/3)),1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(80%/2, max(350px, 80%/3)), 1fr));
     gap: 1.25rem;
 }
 
@@ -33,6 +33,6 @@
     height: 100%;
 }
 
-.secao-vertical .secao__cartoes .cartoes__titulo {
+.secao-vertical .secao__cartoes .cartao__titulo {
     flex-grow: 1;
 }
